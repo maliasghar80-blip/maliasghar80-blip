@@ -1,0 +1,79 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="../pdf/fonts/fonts.css" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#ccc;font-family:Inter,sans-serif}
+.c{width:1080px;height:1350px;padding:96px 88px;position:relative;overflow:hidden;margin-bottom:20px}
+.dark{background:#0E1A2B;color:#fff} .light{background:#FBF8F2;color:#0E1A2B}
+.k{font-size:24px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#16794A;margin-bottom:28px}
+.dark .k{color:#7FD6A6}
+h1{font-family:Fraunces,serif;font-weight:800;font-size:96px;line-height:1;letter-spacing:-.02em}
+h2{font-family:Fraunces,serif;font-weight:800;font-size:72px;line-height:1.05;letter-spacing:-.015em;margin-bottom:48px}
+.g{color:#7FD6A6} .gl{color:#16794A}
+.sub{font-size:38px;line-height:1.35;color:#C9D3E0;margin-top:36px}
+.row{display:flex;gap:28px;align-items:flex-start;padding:26px 0;border-bottom:2px solid #E6E0D4;font-size:34px;line-height:1.3;color:#3A4658}
+.row b{color:#0E1A2B} .n{font-family:Fraunces,serif;font-weight:800;color:#16794A;min-width:64px}
+.foot{position:absolute;left:88px;right:88px;bottom:72px;display:flex;justify-content:space-between;font-size:24px;color:#6B7686;letter-spacing:.06em}
+.dark .foot{color:#7F8DA3}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.box{border-radius:28px;padding:44px;font-size:32px;line-height:1.35}
+.bad{background:#FBE6E1;color:#5a1f15} .good{background:#E3F2E9;color:#0f3d26}
+.tag{font-size:22px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}
+.mono{font-family:"DejaVu Sans Mono",monospace;background:#0E1A2B;color:#E8F5EE;border-radius:24px;padding:40px 44px;font-size:30px;line-height:1.7;white-space:pre}
+.mock{position:absolute;right:-60px;bottom:150px;width:470px;height:640px;background:#16263C;border:2px solid #2A3D58;border-radius:18px;transform:rotate(-6deg);padding:46px 40px;box-shadow:0 40px 80px rgba(0,0,0,.4)}
+.mock .t{font-family:Fraunces,serif;font-weight:800;font-size:64px;line-height:1}
+</style></head><body>
+
+<section class="c dark" id="x1">
+  <div class="k">For founders raising money</div>
+  <h1>Investors don't fund spreadsheets.<br><span class="g">They fund assumptions they believe.</span></h1>
+  <p class="sub" style="max-width:560px">6 red flags that kill trust in your financial model, and how to fix each one. 🧵</p>
+  <div class="mock"><div class="k" style="font-size:16px">A weekend guide</div><div class="t">Fundable<br><span class="g">Numbers.</span></div><p style="color:#C9D3E0;font-size:22px;margin-top:22px;line-height:1.4">Build a startup financial model investors trust. In one weekend.</p></div>
+  <div class="foot"><span></span><span>1 / 5</span></div>
+</section>
+
+<section class="c light" id="x2">
+  <div class="k">Red flags</div>
+  <h2>6 things investors spot in your model within minutes</h2>
+  <div class="row"><span class="n">01</span><span><b>Growth typed as a %.</b> "20% a month" isn't a driver.</span></div>
+  <div class="row"><span class="n">02</span><span><b>"1% of a $10B market."</b> Says nothing about how.</span></div>
+  <div class="row"><span class="n">03</span><span><b>Costs that don't scale.</b> Revenue 10x, support flat?</span></div>
+  <div class="row"><span class="n">04</span><span><b>Profit but no cash tab.</b> When do you run out?</span></div>
+  <div class="row"><span class="n">05</span><span><b>Numbers typed inside formulas.</b> Can't be changed.</span></div>
+  <div class="row" style="border:0"><span class="n">06</span><span><b>Year-5 revenue to the dollar.</b> False confidence.</span></div>
+  <div class="foot"><span></span><span>1 / 3</span></div>
+</section>
+
+<section class="c light" id="x3">
+  <div class="k">Revenue</div>
+  <h2>Stop sizing the market. <span class="gl">Start sizing the funnel.</span></h2>
+  <div class="vs">
+    <div class="box bad"><div class="tag">Top-down ✕</div>"The market is $2B. If we capture 1%, that's $20M."<br><br>Every competitor can write the same sentence.</div>
+    <div class="box good"><div class="tag">Bottom-up ✓</div>"$3,000 in ads → 2,000 visitors → 4% trial → 20% pay $49 a month."<br><br>Every number can be tested.</div>
+  </div>
+  <p style="font-size:40px;line-height:1.35;color:#0E1A2B;margin-top:64px;font-family:Fraunces,serif;font-weight:700">Market size goes in the pitch deck.<br><span class="gl">Funnel math goes in the model.</span></p>
+  <div class="foot"><span></span><span>2 / 3</span></div>
+</section>
+
+<section class="c light" id="x4">
+  <div class="k">Unit economics</div>
+  <h2>Show paid CAC, not blended.</h2>
+  <div class="mono">Paid CAC    = $3,000 ÷ 16   = $187.50
+Blended CAC = $3,000 ÷ 24   = $125.00
+LTV         = 49 × 80% ÷ 4% = $980
+LTV : CAC   = 5.2x
+Payback     = 4.8 months</div>
+  <p style="font-size:34px;line-height:1.4;color:#3A4658;margin-top:44px">Blended CAC counts free organic customers as if your ads won them. Investors know this. Showing paid CAC builds trust.</p>
+  <div class="foot"><span></span><span>3 / 3</span></div>
+</section>
+
+<section class="c dark" id="x5">
+  <div class="k">The question that tests trust</div>
+  <h2 style="font-size:80px">"Which assumption are you <span class="g">least sure about?"</span></h2>
+  <p class="sub">"None, we're confident" is the wrong answer.</p>
+  <p class="sub">Name it, say why, and explain how you'll test it. That shows you understand your business better than any perfect-looking forecast does.</p>
+  <div class="foot"><span></span><span>5 / 5</span></div>
+</section>
+
+</body></html>
