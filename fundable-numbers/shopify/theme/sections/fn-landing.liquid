@@ -12,7 +12,7 @@
   endif
   assign pct = section.settings.discount_percent
   assign keep = 100 | minus: pct
-  assign launch_cents = v.price | times: keep | divided: 100
+  assign launch_cents = v.price | times: keep | divided_by: 100
 -%}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -99,7 +99,7 @@
   .fn .sticky{ position:fixed; left:0; right:0; bottom:0; z-index:50; background:rgba(14,26,43,.96); backdrop-filter:blur(8px); padding:12px 16px; display:none; align-items:center; justify-content:space-between; gap:12px; color:#fff; border-top:1px solid #2A3D58 }
   .fn .sticky.on{ display:flex } .fn .sticky .btn{ padding:12px 20px; font-size:15px }
   @media (max-width: 900px){
-    .fn .hero{ grid-template-columns:1fr; padding:20px 0 70px } .fn .hero .media{ order:-1 }
+    .fn .hero{ grid-template-columns:1fr; padding:10px 0 60px; gap:36px } .fn .bar{ font-size:12.5px } .fn .nav a.small{ display:none }
     .fn .g3,.fn .g2,.fn .vs{ grid-template-columns:1fr } .fn .ch{ grid-template-columns:1fr 1fr } .fn .shots{ grid-template-columns:1fr 1fr }
     .fn section.s{ padding:68px 0 } .fn .author{ grid-template-columns:1fr }
   }
