@@ -1,0 +1,5 @@
+# Paid product files: never commit to this public repo
+fundable-numbers/deliver/
+fundable-numbers/pdf/*.pdf
+fundable-numbers/pdf/guide.html
+fundable-numbers/canva-pages/

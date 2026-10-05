@@ -118,7 +118,7 @@
       {%- if section.settings.show_hero -%}
       <div class="hero">
         <div>
-          <div class="k">A weekend guide for founders who are raising</div>
+          <div class="k">Startup financial model guide + Excel template</div>
           <h1>Fundable<br><span>Numbers.</span></h1>
           <p class="sub">Build a startup financial model investors trust. In one weekend.</p>
           <div class="price">
@@ -132,7 +132,7 @@
           <div class="count" data-end="{{ section.settings.launch_end }}"><div><b data-d>0</b><small>days</small></div><div><b data-h>0</b><small>hrs</small></div><div><b data-m>0</b><small>min</small></div><div><b data-s>0</b><small>sec</small></div></div>
           {%- endif -%}
           <div class="ctas"><a class="btn" href="{{ buy_url }}">Get the guide →</a><a class="ghost" href="#inside">See what's inside</a></div>
-          <div class="trust"><span>17-page PDF</span><span>Instant download</span><span>14-day refund</span></div>
+          <div class="trust"><span>PDF guide + Excel model</span><span>Instant download</span><span>14-day refund</span></div>
         </div>
         <div class="media">{%- if p.featured_image -%}<img src="{{ p.featured_image | image_url: width: 1200 }}" alt="{{ p.featured_image.alt | escape }}" width="1200" height="1200" loading="eager">{%- endif -%}</div>
       </div>
@@ -168,7 +168,7 @@
         <div class="card"><div class="n">07</div><h3>Scenarios</h3><p>Downside, base and upside, switched with one cell.</p></div>
         <div class="card"><div class="n">08</div><h3>Defending it</h3><p>The 10 questions investors ask, and how to answer.</p></div>
       </div>
-      <div class="tools"><span>+ Assumption log</span><span>+ Hour-by-hour weekend plan</span><span>+ 15-point pre-send checklist</span><span>+ Plain-English glossary</span></div>
+      <div class="tools"><span>+ Ready-to-edit Excel model (4 tabs)</span><span>+ Assumption log</span><span>+ Hour-by-hour weekend plan</span><span>+ 15-point pre-send checklist</span><span>+ Plain-English glossary</span></div>
       {%- if p.images.size > 2 -%}
       <div class="shots">
         {%- for img in p.images offset: 2 limit: 4 -%}
@@ -220,8 +220,8 @@
   <section class="s" style="background:#fff">
     <div class="wrap" style="max-width:820px">
       <div class="k">FAQ</div><h2>Questions</h2>
-      <details><summary>What exactly do I get?</summary><p>A 17-page PDF (A4) that downloads right after checkout: 8 chapters, a worked SaaS example, an assumption log, a weekend plan, a 15-point checklist and a glossary.</p></details>
-      <details><summary>Is there a spreadsheet template?</summary><p>The guide shows you exactly how to lay out each of the 4 tabs, so you can build the model in your own Excel or Google Sheets, or fix the template you already have. You'll understand every cell, which is what investors test.</p></details>
+      <details><summary>What exactly do I get?</summary><p>Instant download after checkout: a 17-page PDF guide (8 chapters, a worked SaaS example, an assumption log, a weekend plan, a 15-point checklist and a glossary) plus the 4-tab Excel financial model, pre-filled with the example and ready to edit.</p></details>
+      <details><summary>Is there a spreadsheet template?</summary><p>Yes. You get the 4-tab Excel model the guide is built around (Inputs, Revenue, Team &amp; Costs, Cash &amp; Summary), with a one-cell scenario switch and an assumption log. Change only the blue cells. It works in Excel and Google Sheets. The guide explains every cell, which is what investors test.</p></details>
       <details><summary>My startup isn't SaaS. Does it still work?</summary><p>Yes. The same driver chain works for marketplaces (listings → buyers → orders × take rate), consumer apps and service businesses (leads → calls → deals × contract value). Chapter 3 shows how.</p></details>
       <details><summary>What if it doesn't help me?</summary><p>Email within 14 days of buying and you'll get a full refund. No forms, no arguments.</p></details>
       <details><summary>Can you just build the model for me?</summary><p>Yes. Done-for-you models take about 5 days. Email {{ shop.email }} with your stage and how much you're raising.</p></details>
@@ -237,7 +237,7 @@
         {%- if code != blank -%}<span class="now">{{ launch_cents | money_without_trailing_zeros }}</span><s>{{ v.price | money_without_trailing_zeros }}</s>{%- else -%}<span class="now">{{ v.price | money_without_trailing_zeros }}</span>{%- endif -%}
       </div>
       <a class="btn" href="{{ buy_url }}">Get Fundable Numbers →</a>
-      <div class="trust" style="justify-content:center"><span>Instant PDF download</span><span>14-day refund</span><span>Secure checkout</span></div>
+      <div class="trust" style="justify-content:center"><span>PDF guide + Excel model</span><span>14-day refund</span><span>Secure checkout</span></div>
     </div></section>
     {%- if section.settings.hide_theme_chrome -%}
     <div class="wrap foot">
