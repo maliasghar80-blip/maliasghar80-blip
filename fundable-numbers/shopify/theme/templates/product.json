@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "fn": {
+      "type": "fn-landing",
+      "settings": {
+        "product": "fundable-numbers",
+        "discount_code": "LAUNCH",
+        "discount_percent": 35,
+        "launch_end": "2026-10-12T18:59:00Z",
+        "show_hero": true,
+        "hide_theme_chrome": true
+      }
+    }
+  },
+  "order": [
+    "fn"
+  ]
+}
